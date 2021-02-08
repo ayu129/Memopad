@@ -15,6 +15,7 @@
 		FB3D111D25C7F90A00260B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3D111B25C7F90A00260B69 /* LaunchScreen.storyboard */; };
 		FB3D112825C7F90A00260B69 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D112725C7F90A00260B69 /* MemopadTests.swift */; };
 		FB3D113325C7F90A00260B69 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D113225C7F90A00260B69 /* MemopadUITests.swift */; };
+		FB3D114425C8000400260B69 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D114325C8000400260B69 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB3D112E25C7F90A00260B69 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3D113225C7F90A00260B69 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		FB3D113425C7F90A00260B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3D114325C8000400260B69 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FB3D111925C7F90A00260B69 /* Assets.xcassets */,
 				FB3D111B25C7F90A00260B69 /* LaunchScreen.storyboard */,
 				FB3D111E25C7F90A00260B69 /* Info.plist */,
+				FB3D114325C8000400260B69 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3D114425C8000400260B69 /* MemoViewController.swift in Sources */,
 				FB3D111525C7F90800260B69 /* ViewController.swift in Sources */,
 				FB3D111125C7F90800260B69 /* AppDelegate.swift in Sources */,
 				FB3D111325C7F90800260B69 /* SceneDelegate.swift in Sources */,
